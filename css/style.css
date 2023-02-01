@@ -82,6 +82,30 @@
     font-weight: 200px;
 }
 
+/* Workingspace */
+.workingspace {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.workingspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: #ACACAC;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
 
 /* DESKTOP VERSION */
 @media (min-width: 992px) {
@@ -114,5 +138,9 @@
 
     .jumbotron .display-4 {
         font-size: 62px;
+    }
+
+    .workingspace {
+        text-align: left;
     }
 }
